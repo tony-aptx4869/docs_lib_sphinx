@@ -7,7 +7,7 @@ Tony Chang 的文档库 🗄
 ======================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :hidden:
    :caption: GitHub
 

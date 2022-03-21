@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Tony Chang 的文档库 🗄'
+project = 'Tony Chang 的文档库'
 copyright = '2012-2022 Tony Chang. All Rights Reserved.'
 author = 'Tony Chang'
 
