@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Tony Chang 的文档库 🗄'
+project = 'Tony Chang 的文档库'
 copyright = '2012-2022 Tony Chang. All Rights Reserved'
 author = 'Tony Chang'
 
@@ -31,6 +31,7 @@ release = '0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'hoverxref.extension',
     'sphinx-prompt',
     'myst_parser',
 ]
@@ -67,3 +68,18 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+
+# hoverxref configurations
+hoverxref_intersphinx = [
+    'readthedocs',
+    'sphinx',
+    'sympy',
+    'numpy',
+    'python',
+]
+hoverxref_intersphinx_types = {
+    'readthedocs': 'modal',
+    'sphinx': 'tooltip',
+}
+
