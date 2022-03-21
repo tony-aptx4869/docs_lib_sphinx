@@ -31,7 +31,6 @@ release = '0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'hoverxref.extension',
     'sphinx-prompt',
     'myst_parser',
 ]
@@ -68,38 +67,4 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-
-
-# hoverxref configurations
-hoverxref_intersphinx = [
-    'readthedocs',
-    'sphinx',
-    'sympy',
-    'numpy',
-    'python',
-]
-hoverxref_intersphinx_types = {
-    'readthedocs': 'modal',
-    'sphinx': 'tooltip',
-}
-hoverxref_api_host = 'https://readthedocs.org'
-hoverxref_tooltip_maxwidth = 650
-hoverxref_auto_ref = True
-hoverxref_roles = [
-    'option',
-    'doc',
-]
-hoverxref_role_types = {
-    'mod': 'modal',  # for Python Sphinx Domain
-    'doc': 'modal',  # for whole docs
-    'class': 'tooltip',  # for Python Sphinx Domain
-    'ref': 'tooltip',  # for hoverxref_auto_ref config
-    'confval': 'tooltip',  # for custom object
-}
-hoverxref_domains = [
-    'py',
-    'cite',
-]
-hoverxref_sphinxtabs = True
-hoverxref_mathjax = True
 
