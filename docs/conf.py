@@ -82,4 +82,24 @@ hoverxref_intersphinx_types = {
     'readthedocs': 'modal',
     'sphinx': 'tooltip',
 }
+hoverxref_api_host = 'https://readthedocs.org'
+hoverxref_tooltip_maxwidth = 650
+hoverxref_auto_ref = True
+hoverxref_roles = [
+    'option',
+    'doc',
+]
+hoverxref_role_types = {
+    'mod': 'modal',  # for Python Sphinx Domain
+    'doc': 'modal',  # for whole docs
+    'class': 'tooltip',  # for Python Sphinx Domain
+    'ref': 'tooltip',  # for hoverxref_auto_ref config
+    'confval': 'tooltip',  # for custom object
+}
+hoverxref_domains = [
+    'py',
+    'cite',
+]
+hoverxref_sphinxtabs = True
+hoverxref_mathjax = True
 
