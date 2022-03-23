@@ -29,10 +29,3 @@ Tony Chang 的文档库
 
    macos/macos_menubar_hidden_bar.rst
 
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: PlayStation 5
-
-   ps5/ps5_expansion_ssd_recommand.rst
-
