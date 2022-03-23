@@ -8,30 +8,19 @@
 
 看看 `Julien Grand-Poisson(@bfishadow)`_ 怎么说：
 
-::
-   一直不喜欢乱七八糟的 Menu 图标，之前都在用 Bartender 来管理。但升级 macOS Catalina 之后，它找我索取「全屏录制」权限，于是删了……
-   
-   今天，发现了一个超级好用的替代品 👉 `Hidden Bar`_
-
-   --- `Julien Grand-Poisson(@bfishadow)`_
+ | 一直不喜欢乱七八糟的 Menu 图标，之前都在用 Bartender 来管理。但升级 macOS Catalina 之后，它找我索取「全屏录制」权限，于是删了……
+ | 今天，发现了一个超级好用的替代品 👉 `Hidden Bar`_
+ | --- `Julien Grand-Poisson(@bfishadow)`_
 
 .. _Julien Grand-Poisson(@bfishadow): https://twitter.com/bfishadow/status/1210578945302659073
 
 .. _Hidden Bar: https://github.com/dwarvesf/hidden
-
-.. figure:: ../images/macos/hidden_bar/screen1.png
-   
-   Hidden Bar 主界面
 
 Hidden Bar 非常轻量，简洁的界面和方便的操作实现了隐藏菜单栏图标的需求。
 
 运行 Hidden Bar，菜单栏上会出现一条分割线 ``|`` 和一个尖括号 ``>`` 。分割线 ``|`` 左侧是被隐藏的图标，简称为「隐藏区」，分割线 ``|`` 右侧则是长期显示的图标，简称为「显示区」。点按尖括号 ``>`` 用来控制「隐藏区」展开与否。
 
 现在，就可以按住键盘上的 ``⌘ command`` 键，按自己的喜好拖拽图标了，要隐藏的图就把它拖到分割线 ``|`` 左侧哦！
-
-.. figure:: ../images/macos/hidden_bar/tutorial.gif
-   
-   Hidden Bar 使用教程
 
 要提醒各位，这个小工具有一项「自动隐藏图标」的功能，默认是开启状态，默认时间是 10 秒。所以，为了方便操作，可以先右键单击分割线 ``|`` —— ``偏好设置`` ，进入设置窗口，把这项功能关闭先。图标都拖动完毕了，再开启。
 
@@ -53,6 +42,3 @@ Hidden Bar 非常轻量，简洁的界面和方便的操作实现了隐藏菜单
 
 .. _dwarvesf/hidden Releases: https://github.com/dwarvesf/hidden/releases
 
-.. figure:: ../images/macos/hidden_bar/screen2.png
-   
-   Hidden Bar 关于界面
