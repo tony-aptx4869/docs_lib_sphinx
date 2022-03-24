@@ -21,6 +21,7 @@ Tony Chang 的文档库
 
    github/ssh_key_generate.rst
    github/ssh.rst
+   github/glossary.rst
 
 .. toctree::
    :maxdepth: 2
