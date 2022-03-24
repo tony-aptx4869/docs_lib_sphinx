@@ -31,8 +31,13 @@ release = '0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.autosectionlabel',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.autodoc',
+    'sphinx_search.extension',
     'sphinxemoji.sphinxemoji',
     'sphinx.ext.mathjax',
+    'sphinx_tabs.tabs',
     'sphinx-prompt',
     'myst_parser',
 ]
