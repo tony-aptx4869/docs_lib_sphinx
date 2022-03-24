@@ -17,7 +17,7 @@ GitHub
 ------
 
 文章
-   :doc:`github/ssh_key_generate`
+   :doc:`github/ssh_key_generate` |
    :doc:`github/ssh`
 
 词汇表

@@ -31,6 +31,7 @@ release = '0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinxemoji.sphinxemoji',
     'sphinx.ext.mathjax',
     'sphinx-prompt',
     'myst_parser',
