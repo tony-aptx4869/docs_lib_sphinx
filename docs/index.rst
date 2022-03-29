@@ -50,3 +50,16 @@ macOS
    macos/macos_menubar_hidden_bar
    macos/glossary
 
+游戏攻略
+--------
+
+文章
+   :doc:`game_trophies/detention`
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: 游戏攻略
+
+   game_trophies/detention
+
