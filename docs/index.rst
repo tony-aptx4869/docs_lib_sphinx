@@ -50,16 +50,16 @@ macOS
    macos/macos_menubar_hidden_bar
    macos/glossary
 
-游戏攻略
+古文精选
 --------
 
 文章
-   :doc:`game_trophies/detention`
+   :doc:`classical_chinese/ming_cheng_zu`
 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: 游戏攻略
+   :caption: 古文精选
 
-   game_trophies/detention
+   classical_chinese/ming_cheng_zu
 
