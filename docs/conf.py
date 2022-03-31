@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Tony Chang 的文档库'
-copyright = '2012-2022 Tony Chang. All Rights Reserved'
+copyright = '2077 Tony Chang. Since 2012 All Rights Reserved'
 author = 'Tony Chang'
 
 # The full version, including alpha/beta/rc tags
@@ -59,7 +59,6 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 source_suffix = {
     '.rst': 'restructuredtext',
-    '.txt': 'markdown',
     '.md': 'markdown',
 }
 
